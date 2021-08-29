@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.File;
 import java.util.ArrayList;
-public class csv_parser {
+public class csvParser {
 	//Parse the string version of the number to see if number is valid profit value
 	public static boolean isNum(String num) {
 		if(num == null) {
